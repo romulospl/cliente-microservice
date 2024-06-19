@@ -1,4 +1,4 @@
-package com.example.microservice.demo.controller;
+package com.example.products.demo.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.microservice.demo.model.Product;
+import com.example.products.demo.model.Product;
 
 @RestController
 @RequestMapping("products")
